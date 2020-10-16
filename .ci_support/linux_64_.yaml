@@ -9,4 +9,6 @@ cxx_compiler_version:
 docker_image:
 - condaforge/linux-anvil-comp7
 glib:
-- '2.58'
+- 2.64.6
+target_platform:
+- linux-64
