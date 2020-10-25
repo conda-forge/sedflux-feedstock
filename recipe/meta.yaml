@@ -1,4 +1,4 @@
-{% set version = "2.3.0" %}
+{% set version = "2.3.1" %}
 
 package:
   name: sedflux
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/mcflugen/sedflux/archive/v{{ version }}.tar.gz
-  sha256: 2691363229db87c9aae4281e78fae1721afb89bdf2f37be1d3260347b88bc95c
+  sha256: a0b053630ed4bf309877d68dfc62d343695a729708efb49a582ff9f8e91b677b
 
 build:
   number: 0
