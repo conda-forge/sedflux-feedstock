@@ -15,7 +15,9 @@ build:
 requirements:
   build:
     - cmake
+    - make  # [unix]
     - pkg-config
+    - gnuconfig  # [unix]
     - {{ compiler('cxx') }}
   host:
     - glib
